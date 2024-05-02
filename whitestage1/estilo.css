@@ -1,0 +1,67 @@
+ /*color fondo*/
+.body {
+  background-color: silver;
+}
+
+/* estilo de formulario */
+.formulario {
+  width: 300px;  
+  margin: 20px;  
+}
+
+/* estilo redes sociales */
+#redessociales {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+/* titulo evento recientes */
+#eventosrecientes {
+  margin-block-end: 30px;
+  color: rgb(64, 252, 252);
+  background-color: darkgray
+}
+
+/* titulo principal */
+#titulo {
+  color: rgb(64, 252, 252);
+  background-color: darkgray;
+  margin-top: 20px;
+  background-size: contain
+}
+
+/* titulo proximos eventos */
+#proximos-conciertos {
+  color: rgb(64, 252, 252);
+  background-color: darkgray;
+  margin-block-end: 30px;
+}
+
+/* parrafo abajo titulo */
+.social2 {
+  margin-top: 20px;
+  margin: 40px;
+}
+#social{
+  margin-top: 40px;
+}
+
+/* tarjetas eventos proximos */
+#tarjetasfinal {
+  margin-block-end: 30px;
+  margin-left: 50px;
+}
+.container {
+  margin-top: 50px;
+}
+
+/* tarjetas eventos recientes*/
+#conciertosprincipio {
+margin-left: 50px;
+}
+
+/* frase final */
+#edicionchile {
+  color: rgb(64, 252, 252);
+  background-color: darkgray;
+}

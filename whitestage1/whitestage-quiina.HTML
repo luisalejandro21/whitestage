@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>White Stage</title> 
+<link rel="stylesheet" href="estilo.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body class="body">
+  
+  <!--barra para navegar NAVBAR-->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand">White Stage</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page">Eventos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Fotos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Socios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Reservas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Agendar Cita</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Preguntas Frecuentes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+
+  <center>
+    <!--titulo, pequeño resumen-->
+  <div>
+   <header>
+    <form id="titulo">
+     <h1>White Stage</h1>
+    </form>
+    <h5 class="social2">Somos una productora de eventos nacional, creemos que cada concierto es único y
+       debe tratarse con el cuidado y la atención que merece. Nuestro equipo
+        trabaja en estrecha colaboración con profesionales para comprender sus necesidades y objetivos.</h5>
+   </header>
+  </div>
+
+   <div class="container">
+    <div class="row">
+        <!-- Carrusel -->
+        <div class="col-md-6">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagenes/concepcion.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/wewewew.jpg" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+               <!-- Formulario -->
+        <div class="col-md-6">
+         <form class="formulario">
+          <div class="mb-3">
+            <h2>Inicio Socios</h2>
+          <label class="form-label">Ingrese Email</label>
+           <input class="form-control">
+              </div>
+                <div class="mb-3">
+                    <label class="form-label">Ingrese Contraseña</label>
+                    <input type="password" class="form-control">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox">
+                    <label>Recordar Sesión</label>
+                </div>
+                <button class="btn btn-primary">Iniciar</button>
+                <button class="btn btn-primary">Registrar</button>
+            </form>
+         </div>
+        </div>
+       </div>
+    <!--texto social-->
+    <div id="social">
+      <h4>-Conciertos, festivales, fiestas privadas
+        -Conoce gente y disfruta al máximo
+        -Descuentos en entradas y paquetes especiales
+        -Un equipo experto a tu disposición
+      </h4>
+      </div>
+  </center>
+
+        <!--redes sociales -->
+        <center>
+          <div id="redessociales">
+            <a class="btn btn-social bi bi-instagram"></a>
+            <a class="btn btn-social bi bi-twitter"></a>
+            <a class="btn btn-social bi bi-facebook"></a>
+            <a class="btn btn-social bi bi-youtube"></a>
+            <a class="btn btn-social bi bi-tiktok"></a>
+          </div>
+        </center>
+
+      <!-- tarjetas de conciertos recientes -->
+        <div class="container">
+        <div id="eventosrecientes">
+          <center>
+        <h4>- Conciertos Recientes -</h4>
+          </div>
+        </center>
+          <div id="conciertosprincipio">
+        <div class="row">
+        <!-- tarjeta de iquique -->
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="imagenes/iquieeeuue.jpg" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="titulo-tarjeta">Iquique</h5>
+                <p class="texto-tarjeta">Revisa las fotos del reciente concierto en el fabuloso recinto
+                   "DISCO DELIRIUM CLUB", Donde tuvimos la participacion de dj, artistas y la compañia 
+                   de nuestros socios. Revisa mas detalles...</p>
+                   <div class="card-body d-flex justify-content-center">
+                    <a class="btn btn-primary">Ver</a>
+                    </div>
+              </div>
+            </div>
+          </div>
+        <!-- tarjeta de concepción -->
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="imagenes/ibiza.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="titulo-tarjeta">Concepción</h5>
+                <p class="texto-tarjeta">Revisa las fotos del reciente evento en la fabulosa disco
+                   "The End", Donde tuvimos la participacion de dj, artistas y la compañia
+                    de nuestros socios. Revisa mas detalles...</p>
+                    <div class="card-body d-flex justify-content-center">
+                      <a class="btn btn-primary">Ver</a>
+                      </div>
+              </div>
+            </div>
+          </div>
+         <!-- tarjeta de puertomontt -->
+         <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="imagenes/asd.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="titulo-tarjeta">Puerto Montt</h5>
+              <p class="texto-tarjeta">Revisa las fotos del reciente evento en la fabulosa disco
+                 "The End", Donde tuvimos la participacion de dj, artistas y la compañia
+                  de nuestros socios. Revisa mas detalles...</p>
+                  <div class="card-body d-flex justify-content-center">
+                    <a class="btn btn-primary">Ver</a>
+                    </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    
+      <!-- tarjeta de eventos proximos -->
+    <div class="container">
+        <center>
+      <h4 id="proximos-conciertos">- Proximos Conciertos -</h4>
+        </center>
+      <div id="tarjetasfinal">
+    <div class="row">
+      <!-- tarjeta santiago -->
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/cris.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="titulo-tarjeta">Santiago</h5>
+            <p class="texto-tarjeta">Invitados artistas urbanos y dj sorpresas ¡no te lo puedes perder!,
+               RECUERDA Socios tienen acceso a entradas con descuento </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Temuco,Araucania,Chile -SINCE24</li>
+            <li class="list-group-item">Valor Ticket - $55.000</li>
+            <li class="list-group-item">¡Tickets para Socios ya disponibles! </li>
+          </ul>
+          <div class="card-body d-flex justify-content-center">
+            <a class="btn btn-primary">Comprar ticket</a>
+          </div>
+        </div>
+        </div>
+      <!-- tarjeta temuco -->
+    <div class="col-md-4">
+    <div class="card" style="width: 18rem;">
+      <img src="imagenes/ade05406.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="titulo-tarjeta">Temuco</h5>
+        <p class="texto-tarjeta">Invitados artistas urbanos y dj sorpresas ¡no te lo puedes perder!,
+           RECUERDA Socios tienen acceso a entradas con descuento </p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Temuco,Araucania,Chile -SINCE24</li>
+        <li class="list-group-item">Valor Ticket - $75.000</li>
+        <li class="list-group-item">¡Tickets para Socios ya disponibles! </li>
+      </ul>
+      <div class="card-body d-flex justify-content-center">
+        <a class="btn btn-primary">Comprar ticket</a>
+      </div>
+    </div>
+    </div>
+     <!-- tarjeta pucón -->
+    <div class="col-md-4">
+    <div class="card" style="width: 18rem;">
+      <img src="imagenes/dj.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="titulo-tarjeta">Pucón</h5>
+        <p class="texto-tarjeta">Invitados artistas urbanos y dj sorpresas ¡no te lo puedes perder!, 
+          RECUERDA Socios tienen acceso a entradas con descuento </p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Pucón,Chile -SINCE24</li>
+        <li class="list-group-item">Valor Ticket - $55.000</li>
+        <li class="list-group-item">¡Tickets para Socios ya disponibles! </li>
+      </ul>
+      <div class="card-body d-flex justify-content-center"> 
+        <a class="btn btn-primary">Comprar ticket</a>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+     <center>
+    <h5 id="edicionchile"> - Edición Chile, 2024 -</h5>
+     </center>
+
+</body>
+</html> 
